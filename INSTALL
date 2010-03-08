@@ -1,0 +1,8 @@
+If you have a working pkgconfig and a working hunspell (>=1.2.8) installation the installation should work out of the box:
+
+phpize
+./configure
+make
+make install
+
+add it to your extensions in your php.ini and it should work
